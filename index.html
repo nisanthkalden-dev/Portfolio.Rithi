@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - HR Specialist</title>
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loader Animation -->
+    <div class="loader" id="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">
+                    <span class="logo-icon"><i href="#home" class="fas fa-user"></i></span>
+                    <span class="logo-text"></span>
+                </a>
+            </div>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+                <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+                <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+                <li><a href="#education" class="nav-link" data-section="education">Education</a></li>
+                <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+                <li><a href="#experience" class="nav-link" data-section="experience">Experience</a></li>
+                <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+            </ul>
+
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="hero-title">Hi, I'm <span class="gradient-text">Rithiga Nancy</span></h1>
+            <p class="hero-subtitle">
+                I'm a <span class="typing-text"></span>
+            </p>
+            <p class="hero-description">
+                I am an enthusiastic and adaptable professional with a background in Human Resources and Business Analytics, equipped 
+                with strong interpersonal, organizational, and analytical skills.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">
+                    <i class="fas fa-arrow-right"></i>
+                    View My Work
+                </a>
+                <a href="#contact" class="btn btn-primary">
+                    <i class="fas fa-envelope"></i>
+                    Get In Touch
+                </a>
+            </div>
+        </div>
+        
+        <!-- Floating Elements -->
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+    </section>
+
+    <!-- ==================== ABOUT SECTION ==================== -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <img src="images/ChatGPT Image Jun 29, 2026, 08_43_39 PM.png" alt="Profile Photo">
+                        <div class="image-border"></div>
+                    </div>
+                </div>
+                
+                <div class="about-text">
+                    <p class="about-description">
+                        My expertise lies in aligning people strategy with data-driven decision making to optimize workforce performance 
+                        and organizational efficiency.
+                    </p>
+                    
+                    <p class="about-description">
+                        combined with skills in tools like Excel, Power BI, and SQL, I bring a dual advantage—understanding human behavior and 
+                        interpreting business data to drive results.
+                    </p>
+                    
+                    <!-- <div class="about-highlights">
+                        <div class="highlight-item">
+                            <h4>50+</h4>
+                            <p>Projects Completed</p>
+                        </div> <div class="highlight-item">
+                            <h4>30+</h4>
+                            <p>Happy Clients</p>
+                        </div> <div class="highlight-item">
+                            <h4>3+</h4>
+                            <p>Years Experience</p>
+                        </div>
+                    </div> -->
+
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <h4 class="counter" data-target="10" data-symbol="+">0</h4>
+                            <p>Academic & Personal Projects</p>
+                        </div>
+                        <div class="highlight-item">
+                            <h4 class="counter" data-target="250" data-symbol="+">0</h4>
+                            <p>Students Trained</p>
+                        </div>
+                        <div class="highlight-item">
+                            <h4 class="counter1" data-target="100" data-symbol="%">100%</h4>
+                            <p>Working Commitments</p>
+                        </div>
+                    </div>
+                    <div class="about-buttons" style="text-align: center;">
+                    <a href="images/R._Rithiga_Nancy_FlowCV_Resume_2026-03-25.pdf" class="btn btn-primary" download>
+                        <i class="fas fa-download"></i>
+                            Download Resume
+                        </a>
+                    </div>
+
+    
+                    <!-- <div class="about-links">   
+                        <a href="#" class="social-link" title="LinkedIn" onclick="openLinkedIn()">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="social-link" title="GitHub" onclick="openGitHub()">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        
+                        <a href="#" class="social-link" title="Email" onclick="openEmail()">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="#" class="social-link" title="whatsapp" onclick="openWhatsApp()">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div> -->
+            </div>
+                          
+                
+            </div>
+            <div class="about-links" >
+                <a href="#" class="social-link" title="LinkedIn" onclick="openLinkedIn()">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="social-link" title="Instagram" onclick="openInstagram()">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        
+                        <a href="#" class="social-link" title="Email" onclick="openEmail()">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="#" class="social-link" title="whatsapp" onclick="openWhatsApp()">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+                
+
+    <!-- ==================== SKILLS SECTION ==================== -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            
+            <!-- Core HR Skills -->
+            <div class="skills-category">
+                <h3 class="category-title">
+                    <i class="fas fa-users"></i>
+                Core HR Skills    
+                </h3>
+                
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Recruitment & Talent Acquisition</span>
+                            <span class="skill-percent">83%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 83%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Employee Onboarding</span>
+                            <span class="skill-percent">95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">HR Operations</span>
+                            <span class="skill-percent">88%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 88%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Performance Management</span>
+                            <span class="skill-percent">92%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 92%"></div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Bootstrap</span>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+
+            <!-- HR Tools & Systems -->
+            <div class="skills-category">
+                <h3 class="category-title">
+                    <i class="fas fa-laptop"></i>
+                    HR Tools & Systems
+                </h3>
+                
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">MS Excel</span>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">HRMS/ATS Tools</span>
+                            <span class="skill-percent">87%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 87%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Power Point</span>
+                            <span class="skill-percent">83%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 83%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">MS Word</span>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- professional Skills -->
+            <div class="skills-category">
+                <h3 class="category-title">
+                    <i class="fas fa-comments"></i>
+                    professional Skills
+                </h3>
+                
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Communication Skills</span>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Conflict Resolution</span>
+                            <span class="skill-percent">78%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 78%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Team Collaboration</span>
+                            <span class="skill-percent">75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Time Management</span>
+                            <span class="skill-percent">72%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 72%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== EDUCATION SECTION ==================== -->
+    <section class="education" id="education">
+        <div class="container">
+            <h2 class="section-title">Education & Courses</h2>
+            
+            <div class="timeline">
+                <!-- Timeline Item 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Master of Business Administration</h3>
+                        <p class="timeline-subtitle">Human resource & Business Analytics</p>
+                        <p class="timeline-institution">Jeppiaar Institute Of Technology, Chennai</p>
+                        <p class="timeline-date">2024 - 2026</p>
+                        <p class="timeline-description">Focused on HR management and business analytics,applying data-driven 
+                            approaches to recruitment,performance tracking and workforce planning.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Bachelor of Commerce</h3>
+                        <p class="timeline-subtitle">Accounts</p>
+                        <p class="timeline-institution">Nazareth Margoschis College,Nazareh</p>
+                        <p class="timeline-date">08/2020 - 06/2023</p>
+                        <p class="timeline-description">
+                            Built a strong foundation in accounting principles,financial reporting,taxation and business management.
+                            Developed analytical and problem-solving skills relevant to financial.</p>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Accounts and Commerce</h3>
+                        <p class="timeline-subtitle">Higher Secondary Education</p>
+                        <p class="timeline-institution">James Memorial Matriculation & Hr. Sec. School</p>
+                        <p class="timeline-date">06/2019 - 03/2020</p>
+                        <p class="timeline-description">
+                            Completed higher secondary education with a focus on accounting,commerce and business fundamentals.
+                        </p>
+                    </div>
+                </div>
+                <!-- Timeline Item 4 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Chartered accountant of ICAI</h3>
+                        <p class="timeline-subtitle">Professional Certification</p>
+                        <p class="timeline-institution">ICAI Tirunelveli</p>
+                        <p class="timeline-date">Aug 2023</p>
+                        <p class="timeline-description">
+                            Completed the Chartered Accountant program with a focus on accounting standards,auditing and tax compliance.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ==================== PROJECTS SECTION ==================== -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            
+            <!-- Filter Buttons -->
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="Finance">Finance</button>
+                <button class="filter-btn" data-filter="HR">HR</button>
+                <button class="filter-btn" data-filter="Publication">Publication</button>
+            </div>
+
+            <!-- Projects Grid -->
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-category="HR">
+                    <div class="project-image">
+                        <img src="images/AI_Recruitment-img.webp" alt="Project">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" title="Linkedin" onclick="openLinkedIn()">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <!-- <a href="https://github.com/nisanthkalden-dev/BMA-Cakes" class="project-link" title="GitHub" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a> -->
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Impact of AI & Automation in Talent Acquisition</h3>
+                        <p class="project-description">
+                            Analyzed how AI-driven tools are transforming recruitment processes, improving candidate screening, reducing hiring time,
+                            and enhancing decision-making in talent acquisition.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HR Analytics</span>
+                            <span class="tech-tag">Research</span>
+                            <span class="tech-tag">Data Analysis</span>
+                            <span class="tech-tag">Excel</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card" data-category="Finance">
+                    <div class="project-image">
+                        <img src="images/images (1).jpeg" alt="Project">
+                        <div class="project-overlay">
+                            <a href="#home" class="project-link" title="LinkedIn" onclick="openLinkedIn()">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <!-- <a href="#" class="project-link" title="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a> -->
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Mutual Fund Performance Analysis</h3>
+                        <p class="project-description">
+                            Analyzed the performance of various mutual funds over different time periods and identified key factors influencing their returns.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Finance Analysis</span>
+                            <span class="tech-tag">Excel</span>
+                            <span class="tech-tag">Data Visualization</span>
+                            <span class="tech-tag">Research</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card" data-category="Publication">
+                    <div class="project-image">
+                        <img src="images/images.jpeg" alt="Project">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" title="LinkedIn" onclick="openLinkedIn()">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <!-- <a href="#" class="project-link" title="GitHub" onclick="openGitHub()">
+                                <i class="fab fa-github"></i>
+                            </a> -->
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Integration of Artificial Intelligence in E-Commerce</h3>
+                        <p class="project-description">
+                             Explored the role of AI in transforming e-commerce platforms through personalized recommendations,
+                             chatbots, demand forecasting, and customer behavior analysis. The study highlights how AI enhances user 
+                             experience, optimizes operations, and drives business growth.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">AI Integration</span>
+                            <span class="tech-tag">Bussiness Analysis</span>
+                            <span class="tech-tag">Research</span>
+                            <span class="tech-tag">Data Analysis</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <!-- <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250?text=Weather+Dashboard" alt="Project">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" title="Live Demo">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="#" class="project-link" title="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Weather Dashboard</h3>
+                        <p class="project-description">
+                            Interactive weather application with real-time data, forecasts, and location services.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">API</span>
+                            <span class="tech-tag">CSS Grid</span>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- Project 5 -->
+                <!-- <div class="project-card" data-category="app">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250?text=Chat+Application" alt="Project">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" title="Live Demo">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="#" class="project-link" title="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Real-Time Chat Application</h3>
+                        <p class="project-description">
+                            WebSocket-powered chat app with user authentication, messaging, and file sharing.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Socket.io</span>
+                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">React</span>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- Project 6 -->
+                <!-- <div class="project-card" data-category="AI Model">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250?text=UI+Kit" alt="Project">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" title="Live Demo">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="#" class="project-link" title="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Modern UI Kit</h3>
+                        <p class="project-description">
+                            Comprehensive UI kit with pre-built components, animations, and responsive layouts.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Bootstrap</span>
+                            <span class="tech-tag">Figma</span>
+                            <span class="tech-tag">Responsive</span>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== EXPERIENCE SECTION ==================== -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            
+            <div class="experience-timeline">
+                <!-- Experience Item 1 -->
+                <div class="experience-item">
+                    <div class="experience-marker"></div>
+                    <div class="experience-content">
+                        <h3 class="experience-title">HR Executive</h3>
+                        <p class="experience-company">Allins Insurance</p>
+                        <p class="experience-period">Feb 2026</p>
+                        <p class="experience-description">
+                            Talent acquisition, Employee engagement, HR operations, Executive assistant, Learning and Development, HR analytics, Employee relations, HR compliance, Performance management, HR strategy, HR technology, HR policies and procedures.
+                        </p>
+                        <ul class="experience-highlights">
+                            <li>Handled employee relations and resolved conflicts</li>
+                            <li>Assisted in recruitment and selection processes</li>
+                            <li>Conducted performance evaluations and provided feedback</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Experience Item 2 -->
+                <div class="experience-item">
+                    <div class="experience-marker"></div>
+                    <div class="experience-content">
+                        <h3 class="experience-title">Human Resources</h3>
+                        <p class="experience-company">Aspire Consultants</p>
+                        <p class="experience-period">Internship - Sep 2025</p>
+                        <p class="experience-description">
+                            Gained practical experience in HR functions, including recruitment, employee engagement, and HR operations. Assisted in various HR projects and initiatives.
+
+                        </p>
+                        <ul class="experience-highlights">
+                            <li>Assisted in recruitment and selection processes</li>
+                            <li>Supported employee engagement initiatives</li>
+                            <li>Participated in HR projects and initiatives</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Experience Item 3 -->
+                <div class="experience-item">
+                    <div class="experience-marker"></div>
+                    <div class="experience-content">
+                        <h3 class="experience-title">Placement Trainer</h3>
+                        <p class="experience-company">Naan Mudhalvan and Crescent University</p>
+                        <p class="experience-period">Chennai,Tamil Nadu</p>
+                        <p class="experience-description">
+                            Provided training and guidance to students for placement preparation. Conducted workshops on technical skills and interview techniques.
+                        </p>
+                        <ul class="experience-highlights">
+                            <li>Trained over 250+ students in technical and soft skills</li>
+                            <li>Conducted workshops on interview techniques</li>
+                            <li>Provided career guidance and counseling to students</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's talk about everything!</h3>
+                    <p>I'm always open to discussing new projects, interesting ideas, or opportunities to be part of your vision.</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p><a href="https://maps.google.com/?q=Chennai,+India" target="_blank">Chennai, India</a></p>
+                                <p><a href="https://www.google.com/maps/@8.5554015,77.9531725,14z?entry=ttu&g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D" target="_blank">Native : Nazareth,TamilNadu</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p><a href="mailto:rithigaromeo18203@gmail.com">rithigaromeo18203@gmail.com</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p><a href="https://wa.me/919566745500" target="_blank">+91 9566745500</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-socials">
+                        <a href="#" class="social-icon" title="LinkedIn" onclick="openLinkedIn()">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="social-icon" title="Email" onclick="openEmail()">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="#" class="social-icon" title="whatsapp" onclick="openWhatsApp()">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="#" class="social-icon" title="Instagram" onclick="openinstagram()">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary" onclick="sendToWhatsApp()">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                    
+                    <div class="form-status" id="formStatus"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- <p>&copy; 2024 Your Name. All rights reserved.</p> -->
+                 <h3>Thank you <i class="fas fa-smile"></i></h3>
+                <p>Designed & Built with using HTML, CSS & JavaScript</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
